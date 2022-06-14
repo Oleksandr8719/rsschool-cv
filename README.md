@@ -1,3 +1,3 @@
-https://github.com/Oleksandr8719/rsschool-cv/сv
+https://oleksandr8719.github.io/rsschool-cv/cv
 
-https://github.com/Oleksandr8719/rsschool-cv/
+https://oleksandr8719.github.io/rsschool-cv/
