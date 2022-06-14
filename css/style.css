@@ -201,4 +201,23 @@ p {
 	line-height: 24px;
 }
 
+.footer {
+	height: 40px;
+	background-color: #F5F7F939;
+	border: 2px solid #fff;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.link {
+	width: 70px;
+}
+.link-github {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
 
