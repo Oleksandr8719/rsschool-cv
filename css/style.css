@@ -10,7 +10,6 @@ p {
 .header {
 	height: 40px;
 	background-color: #F5F7F939;
-	border: 2px solid #fff;
 	margin: 0 auto;	
 	display: flex;
 	justify-content: space-around;
