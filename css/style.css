@@ -141,7 +141,7 @@ p {
 	color: #595959;
 }
 
-.education {
+.education, .code-examples {
 	margin-top: 40px;
 }
 .education-list {
@@ -173,7 +173,7 @@ p {
 	margin-bottom: 50px;
 }
 
-.contacts, .tech-skills, .soft-skills {
+.contacts, .tech-skills, .soft-skills, .english {
 	margin-left: 40px;
 	margin-bottom: 45px;
 }
@@ -203,16 +203,16 @@ p {
 	text-decoration: none;
 }
 
-.tech-skills-list, .soft-skills-list {
+.tech-skills-list, .soft-skills-list, .english-list {
 	color: #fff;
 	margin: 0;
 	padding: 15px;
 }
 
-.tech-skills-item, .soft-skills-item {
+.tech-skills-item, .soft-skills-item, .english-item {
 	color: #FB6D3A;
 }
-.tech-skills-text, .soft-skills-text {
+.tech-skills-text, .soft-skills-text, .english-text {
 	color: #fff;
 	font-weight: 400;
 	font-size: 14px;
