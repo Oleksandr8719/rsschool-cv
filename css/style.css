@@ -7,6 +7,24 @@ p {
 	margin: 0;
 }
 
+.header {
+	height: 40px;
+	background-color: #F5F7F939;
+	border: 2px solid #fff;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header a {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 55px;
+	color: #000000;
+}
+
 /*main*/
 .main {
 	display: flex;
@@ -209,6 +227,10 @@ p {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.link_github{
+	width: 30px;
 }
 
 .link {
