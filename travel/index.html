@@ -28,49 +28,69 @@
               <li class="nav-item"><a href="#Destinations" class="nav-link">Destinations</a></li>
               <li class="nav-item"><a href="#Travel_Stories" class="nav-link">Travel Stories</a></li>
             </ul>
-        </nav>s
+        </nav>
         <button type="button" class="login-btn" name="Login">Login</button>
     </header>
+    <header class="header-mobile">
+        <img src="assets/svg/Vector.svg" alt="Travel Portal">
+    </header>
     <main class="main-content">
-        <img src="assets/img/garrett-parker-DlkF4-dbCOU-unsplash_1.jpg" class="garret-fone" alt="Garrett-Parker">
+        <!--<img src="assets/img/garrett-parker-DlkF4-dbCOU-unsplash_1.jpg" class="garret-fone" alt="Garrett-Parker">
+        <img src="assets/img/Mobile/garrett-parker-DlkF4-dbCOU-unsplash_2.jpg" class="garret-fone-mobile" alt="Garrett-Parker" >-->
+        <div class="garret-fone"></div>
         <section class="preview">
-            <a name="How_It_Works"></a>
+            <a id="How_It_Works"></a>
             <h1>
                 Explore the beauty of the World
             </h1>
             <p>
                 Receive personalized recommendations for countries, hotels, activities and more
             </p>
-            <form action="#" method="get" class="search">
-                <input name="s" placeholder="What would you like to do?" class="search-input"  type="search">
+            <form action="#" method="get">
+                <input name="s" placeholder="What would you like to do?" class="search"  type="search">
                 <button type="submit" class="search-btn">Start Planning</button>
             </form>
         </section>
+        <form action="#" class="preview-mobile" method="get">
+            <input name="s" placeholder="What would you like to do?" class="search"  type="search">
+            <button type="submit" class="search-btn">Start Planning</button>
+        </form>
         <section class="steps">
-            <a name="Plan_Your_Trip"></a>
+            <a id="Plan_Your_Trip"></a>
             <h2>3 STEPS TO THE PERFECT TRIP</h2>
             <div class="steps-icons">
                 <a href="#" class="steps-link">
                     <img src="assets/svg/Group_1_step.svg" alt="Tell us what you want to do">
-                    <p class="speps-text">Tell us what you want to do</p>
+                    <p class="steps-text">Tell us what you want to do</p>
                 </a>
                 <a href="#" class="steps-link">
                     <img src="assets/svg/Group_2_date.svg" alt="Share us preferable dates">
-                    <p class="speps-text">Share us preferable dates</p>
+                    <p class="steps-text">Share us preferable dates</p>
                 </a>
                 <a href="#" class="steps-link">
                     <img src="assets/svg/Group_3_recomendation.svg" alt="We will give you recommendations">
-                    <p class="speps-text">We will give you recommendations</p>
+                    <p class="steps-text">We will give you recommendations</p>
                 </a>
             </div>
         </section>
         <section class="destinations">
-            <a name="Destinations"></a>
+            <a id="Destinations"></a>
             <h2>POPULAR DESTINATIONS</h2>
             <div class="slider"> 
-                <img src="assets/img/Rectangle_23.jpg" class="slide" alt="SPAIN">
-                <img src="assets/img/Rectangle_24_1.jpg" class="slide" alt="JAPAN">
-                <img src="assets/img/Rectangle_25.jpg" class="slide" alt="USA">
+                <div class="slide_Spain">
+                    <img src="assets/img/Rectangle_23.jpg" class="slide" alt="SPAIN">
+                </div>
+                <div class="slide_mobile_Spain">
+                    <img src="assets/img/Mobile/Rectangle_26.jpg" class="slide" alt="SPAIN">
+                </div>
+                <div class="slide-Japan">
+                    <p>JAPAN</p>
+                    <img src="assets/img/Rectangle_24.jpg" class="slide" alt="JAPAN">
+                </div>
+                <div class="slide-USA">
+                    <p>USA</p>
+                    <img src="assets/img/Rectangle_25.jpg" class="slide" alt="USA">
+                </div>
             </div>
             <div class="slider-pointer">
                 <div class="pointer"></div>
@@ -82,7 +102,7 @@
             </button>
         </section>
         <section class="stories">
-            <a name="Travel_Stories"></a>
+            <a id="Travel_Stories"></a>
             <h2>TRAVEL STORIES</h2>
             <div class="stories-item">
                 <img src="assets/img/Rectangle_29.jpg" alt="Thailand">
@@ -122,7 +142,8 @@
                     <img src="assets/svg/Arrow.svg" alt="Find More">See More
                 </button>
         </section>
-        <img src="assets/img/Rectangle_33.jpg" class="futer-fone" alt="Garrett-Parker">
+        <!--<img src="assets/img/Rectangle_33.jpg" class="futer-fone" alt="Garrett-Parker">-->
+        <div class="footer-fone"></div>
         <footer class="footer">
 			<div class="social-link">
                 <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="course rs_school" class="link_rss"></a>
